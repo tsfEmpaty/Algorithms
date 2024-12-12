@@ -1,4 +1,4 @@
-# Non-Constructible Change
+# Find Closest Value In BST
 
 Write a function that takes in a Binary Search Tree (BST) and a target integer
 value and returns the closest value to that target value contained in the BST.
@@ -16,7 +16,7 @@ of every node to its right; and its children nodes are either valid
 ## Sample Input
 
 ```python
-          10
+tree =   10
        /     \
       5      15
     /   \   /   \
@@ -60,3 +60,11 @@ Average: O(log(n)) time | O(1) space - where n is the number of nodes in the BST
 Worst: O(n) time | O(1) space - where n is the number of nodes in the BST
 
 </details>
+
+---
+
+## 🔗 Solutions
+
+<div style="text-align: center;">
+  <a href="./solution_recursive.py" style="display: inline-block; background-color: #4CAF50; color: white; padding: 10px 15px; text-align: center; text-decoration: none; border-radius: 5px; margin-right: 10px;">View Solution</a>
+</div>
