@@ -66,5 +66,5 @@ Worst: O(n) time | O(1) space - where n is the number of nodes in the BST
 ## 🔗 Solutions
 
 <div style="text-align: center;">
-  <a href="./solution_recursive.py" style="display: inline-block; background-color: #4CAF50; color: white; padding: 10px 15px; text-align: center; text-decoration: none; border-radius: 5px; margin-right: 10px;">View Solution</a>
+  <a href="./solution.py" style="display: inline-block; background-color: #4CAF50; color: white; padding: 10px 15px; text-align: center; text-decoration: none; border-radius: 5px; margin-right: 10px;">View Solution</a>
 </div>
