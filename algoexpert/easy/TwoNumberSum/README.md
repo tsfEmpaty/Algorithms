@@ -1,10 +1,17 @@
 # Two Number Sum
 
-Write a function that takes in a non-empty array of distinct integers and an integer representing a target sum. If any two numbers in the input array sum up to the target sum, the function should return them in an array, in any order. If no two numbers sum up to the target sum, the function should return an empty array.
+Write a function that takes in a non-empty array of distinct integers and an
+integer representing a target sum. If any two numbers in the input array sum
+up to the target sum, the function should return them in an array, in any
+order. If no two numbers sum up to the target sum, the function should return
+an empty array.
 
-> Note that the target sum has to be obtained by summing two different integers in the array; you can't add a single integer to itself in order to obtain the target sum.
->
-> > You can assume that there will be at most one pair of numbers summing up to the target sum.
+Note that the target sum has to be obtained by summing two different integers
+in the array; you can't add a single integer to itself in order to obtain the
+target sum.
+
+You can assume that there will be at most one pair of numbers summing up to
+the target sum.
 
 ## Sample Input
 
@@ -15,7 +22,7 @@ targetSum = 10
 
 ## Sample Output
 
-```python
+```javascript
 [-1, 11] // the numbers could be in reversed order
 ```
 
@@ -46,3 +53,12 @@ Try storing every number in a hash table, solving the equation mentioned in Hint
 O(n) time | O(n) space - where n is the length of the input array
 
 </details>
+
+---
+
+## 🔗 Solutions
+
+<div style="text-align: center;">
+  <a href="./solution_hashtable.py" style="display: inline-block; background-color: #4CAF50; color: white; padding: 10px 15px; text-align: center; text-decoration: none; border-radius: 5px; margin-right: 10px;">View First Solution</a>
+  <a href="./solution_for_loops.py" style="display: inline-block; background-color: #008CBA; color: white; padding: 10px 15px; text-align: center; text-decoration: none; border-radius: 5px;">View Second Solution</a>
+</div>

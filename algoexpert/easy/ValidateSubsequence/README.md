@@ -2,9 +2,12 @@
 
 Given two non-empty arrays of integers, write a function that determines whether the second array is a subsequence of the first one.
 
-> A subsequence of an array is a set of numbers that aren't necessarily adjacent in the array but that are in the same order as they appear in the array. For instance, the numbers [1, 3, 4] form a subsequence of the array [1, 2, 3, 4], and so do the numbers [2, 4].
->
-> > Note that a single number in an array and the array itself are both valid subsequences of the array.
+A subsequence of an array is a set of numbers that aren't necessarily adjacent
+in the array but that are in the same order as they appear in the array. For
+instance, the numbers <code>[1, 3, 4]</code> form a subsequence of the array
+<code>[1, 2, 3, 4]</code>, and so do the numbers <code>[2, 4]</code>. Note
+that a single number in an array and the array itself are both valid
+subsequences of the array.
 
 ## Sample Input
 
@@ -46,3 +49,12 @@ To actually implement what Hint #2 describes, you'll have to declare a variable 
 O(n) time | O(1) space - where n is the length of the array
 
 </details>
+
+---
+
+## 🔗 Solutions
+
+<div style="text-align: center;">
+  <a href="./solution_while_loop.py" style="display: inline-block; background-color: #4CAF50; color: white; padding: 10px 15px; text-align: center; text-decoration: none; border-radius: 5px; margin-right: 10px;">View First Solution</a>
+  <a href="./solution_for_loops.py" style="display: inline-block; background-color: #008CBA; color: white; padding: 10px 15px; text-align: center; text-decoration: none; border-radius: 5px;">View Second Solution</a>
+</div>
