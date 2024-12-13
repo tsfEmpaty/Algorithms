@@ -23,12 +23,14 @@ Welcome to the **Algorithms** repository, which contains my write-ups of problem
 
 ### Easy
 
--   [Branch Sums](algoexpert/easy/BranchSums/README.md)
--   [Find Closest Value in BST](algoexpert/easy/FindClosestValueInBST/README.md)
--   [Node Depths](algoexpert/easy/NodeDepths/README.md)
--   [Non-Constructible Change](algoexpert/easy/NonConstructibleChange/README.md)
 -   [Two Number Sum](algoexpert/easy/TwoNumberSum/README.md)
 -   [Validate Subsequence](algoexpert/easy/ValidateSubsequence/README.md)
+-   [Non-Constructible Change](algoexpert/easy/NonConstructibleChange/README.md)
+-   [Find Closest Value in BST](algoexpert/easy/FindClosestValueInBST/README.md)
+-   [Branch Sums](algoexpert/easy/BranchSums/README.md)
+-   [Node Depths](algoexpert/easy/NodeDepths/README.md)
+-   [Depth-first Search](algoexpert/easy/Depth-firstSearch/README.md)
+-   [Remove Duplicates From Linked List](algoexpert/easy/RemoveDuplicatesFromLinkedList/README.md)
 
 ### Medium
 
