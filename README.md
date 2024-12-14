@@ -31,6 +31,8 @@ Welcome to the **Algorithms** repository, which contains my write-ups of problem
 -   [Node Depths](algoexpert/easy/NodeDepths/README.md)
 -   [Depth-first Search](algoexpert/easy/Depth-firstSearch/README.md)
 -   [Remove Duplicates From Linked List](algoexpert/easy/RemoveDuplicatesFromLinkedList/README.md)
+-   [Nth Fibonacci](algoexpert/easy/NthFibonacci/README.md)
+-   [Product Sum](algoexpert/easy/ProductSum/README.md)
 
 ### Medium
 
