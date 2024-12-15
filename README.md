@@ -33,6 +33,8 @@ Welcome to the **Algorithms** repository, which contains my write-ups of problem
 -   [Remove Duplicates From Linked List](algoexpert/easy/RemoveDuplicatesFromLinkedList/README.md)
 -   [Nth Fibonacci](algoexpert/easy/NthFibonacci/README.md)
 -   [Product Sum](algoexpert/easy/ProductSum/README.md)
+-   [Binary Search](algoexpert/easy/BinarySearch/README.md)
+-   [Bubble Sort](algoexpert/easy/BubbleSort/README.md)
 
 ### Medium
 
