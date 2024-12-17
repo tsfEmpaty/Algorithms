@@ -35,10 +35,14 @@ Welcome to the **Algorithms** repository, which contains my write-ups of problem
 -   [Product Sum](algoexpert/easy/ProductSum/README.md)
 -   [Binary Search](algoexpert/easy/BinarySearch/README.md)
 -   [Bubble Sort](algoexpert/easy/BubbleSort/README.md)
+-   [Palindrome Check](algoexpert/easy/PalindromeCheck/README.md)
+-   [Generate Document](algoexpert/easy/GenerateDocument/README.md)
+-   [First Non-Repeating Character](algoexpert/easy/FirstNon-RepeatingCharacter/README.md)
 
 ### Medium
 
-_Problems will be added soon._
+-   [Longest Peak](algoexpert/medium/LongestPeak/README.md)
+-   [Validate BST](algoexpert/medium/ValidateBST/README.md)
 
 ### Hard
 
