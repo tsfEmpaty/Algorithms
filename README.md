@@ -43,6 +43,8 @@ Welcome to the **Algorithms** repository, which contains my write-ups of problem
 
 -   [Longest Peak](algoexpert/medium/LongestPeak/README.md)
 -   [Validate BST](algoexpert/medium/ValidateBST/README.md)
+-   [Breadth-first Search](algoexpert/medium/Breadth-firstSearch/README.md)
+-   [River Sizes](algoexpert/medium/RiverSizes/README.md)
 
 ### Hard
 
