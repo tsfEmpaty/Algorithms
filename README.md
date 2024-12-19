@@ -48,7 +48,7 @@ Welcome to the **Algorithms** repository, which contains my write-ups of problem
 
 ### Hard
 
-_Problems will be added soon._
+-   [Maximize Expression](algoexpert/hard/MaximizeExpression/README.md)
 
 ### Very Hard
 
