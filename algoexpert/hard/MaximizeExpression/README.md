@@ -84,5 +84,6 @@ O(n) time | O(n) space - where n is the length of the array
 ## 🔗 Solution
 
 <div style="text-align: center; flex-box: flex">
-  <a href="./solution.py" style="display: inline-block; background-color: #4CAF50; color: white; padding: 10px 15px; text-align: center; text-decoration: none; border-radius: 5px;">View Solution</a>
+  <a href="./first_solution.py" style="display: inline-block; background-color: #4CAF50; color: white; padding: 10px 15px; text-align: center; text-decoration: none; border-radius: 5px;">View Solution</a>
+  <a href="./second_solution.py" style="display: inline-block; background-color: #4CAF50; color: white; padding: 10px 15px; text-align: center; text-decoration: none; border-radius: 5px;">View Solution</a>
 </div>
