@@ -49,6 +49,7 @@ Welcome to the **Algorithms** repository, which contains my write-ups of problem
 ### Hard
 
 -   [Maximize Expression](algoexpert/hard/MaximizeExpression/README.md)
+-   [Boggle Board](algoexpert/hard/BoggleBoard/README.md)
 
 ### Very Hard
 
