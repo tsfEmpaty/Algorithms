@@ -50,6 +50,7 @@ Welcome to the **Algorithms** repository, which contains my write-ups of problem
 
 -   [Maximize Expression](algoexpert/hard/MaximizeExpression/README.md)
 -   [Boggle Board](algoexpert/hard/BoggleBoard/README.md)
+-   [Shift Linked List](algoexpert/hard/ShiftLinkedList/README.md)
 
 ### Very Hard
 
