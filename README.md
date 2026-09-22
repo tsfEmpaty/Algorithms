@@ -5,17 +5,18 @@ Welcome to the **Algorithms** repository, which contains my write-ups of problem
 ## 📜 Navigation
 
 - [Algorithms Repository](#algorithms-repository)
-  - [📜 Navigation](#-navigation)
-  - [AlgoExpert](#algoexpert)
-    - [Easy](#easy)
-    - [Medium](#medium)
-    - [Hard](#hard)
-    - [Very Hard](#very-hard)
-  - [Grokking Algorithms](#grokking-algorithms)
-    - [Binary Search](#binary-search)
-  - [LeetCode](#leetcode)
-  - [🔧 How to Use This Repository](#-how-to-use-this-repository)
-  - [💡 Future Enhancements](#-future-enhancements)
+    - [📜 Navigation](#-navigation)
+    - [AlgoExpert](#algoexpert)
+        - [Easy](#easy)
+        - [Medium](#medium)
+        - [Hard](#hard)
+        - [Very Hard](#very-hard)
+    - [Grokking Algorithms](#grokking-algorithms)
+        - [Binary Search](#binary-search)
+    - [LeetCode](#leetcode)
+    - [🔧 How to Use This Repository](#-how-to-use-this-repository)
+    - [💡 Future Enhancements](#-future-enhancements)
+    - [With love from Algo Community 💚](#with-love-from-algo-community-)
 
 ---
 
@@ -23,34 +24,34 @@ Welcome to the **Algorithms** repository, which contains my write-ups of problem
 
 ### Easy
 
--   [Two Number Sum](algoexpert/easy/TwoNumberSum/README.md)
--   [Validate Subsequence](algoexpert/easy/ValidateSubsequence/README.md)
--   [Non-Constructible Change](algoexpert/easy/NonConstructibleChange/README.md)
--   [Find Closest Value in BST](algoexpert/easy/FindClosestValueInBST/README.md)
--   [Branch Sums](algoexpert/easy/BranchSums/README.md)
--   [Node Depths](algoexpert/easy/NodeDepths/README.md)
--   [Depth-first Search](algoexpert/easy/Depth-firstSearch/README.md)
--   [Remove Duplicates From Linked List](algoexpert/easy/RemoveDuplicatesFromLinkedList/README.md)
--   [Nth Fibonacci](algoexpert/easy/NthFibonacci/README.md)
--   [Product Sum](algoexpert/easy/ProductSum/README.md)
--   [Binary Search](algoexpert/easy/BinarySearch/README.md)
--   [Bubble Sort](algoexpert/easy/BubbleSort/README.md)
--   [Palindrome Check](algoexpert/easy/PalindromeCheck/README.md)
--   [Generate Document](algoexpert/easy/GenerateDocument/README.md)
--   [First Non-Repeating Character](algoexpert/easy/FirstNon-RepeatingCharacter/README.md)
+- [Two Number Sum](algoexpert/easy/TwoNumberSum/README.md)
+- [Validate Subsequence](algoexpert/easy/ValidateSubsequence/README.md)
+- [Non-Constructible Change](algoexpert/easy/NonConstructibleChange/README.md)
+- [Find Closest Value in BST](algoexpert/easy/FindClosestValueInBST/README.md)
+- [Branch Sums](algoexpert/easy/BranchSums/README.md)
+- [Node Depths](algoexpert/easy/NodeDepths/README.md)
+- [Depth-first Search](algoexpert/easy/Depth-firstSearch/README.md)
+- [Remove Duplicates From Linked List](algoexpert/easy/RemoveDuplicatesFromLinkedList/README.md)
+- [Nth Fibonacci](algoexpert/easy/NthFibonacci/README.md)
+- [Product Sum](algoexpert/easy/ProductSum/README.md)
+- [Binary Search](algoexpert/easy/BinarySearch/README.md)
+- [Bubble Sort](algoexpert/easy/BubbleSort/README.md)
+- [Palindrome Check](algoexpert/easy/PalindromeCheck/README.md)
+- [Generate Document](algoexpert/easy/GenerateDocument/README.md)
+- [First Non-Repeating Character](algoexpert/easy/FirstNon-RepeatingCharacter/README.md)
 
 ### Medium
 
--   [Longest Peak](algoexpert/medium/LongestPeak/README.md)
--   [Validate BST](algoexpert/medium/ValidateBST/README.md)
--   [Breadth-first Search](algoexpert/medium/Breadth-firstSearch/README.md)
--   [River Sizes](algoexpert/medium/RiverSizes/README.md)
+- [Longest Peak](algoexpert/medium/LongestPeak/README.md)
+- [Validate BST](algoexpert/medium/ValidateBST/README.md)
+- [Breadth-first Search](algoexpert/medium/Breadth-firstSearch/README.md)
+- [River Sizes](algoexpert/medium/RiverSizes/README.md)
 
 ### Hard
 
--   [Maximize Expression](algoexpert/hard/MaximizeExpression/README.md)
--   [Boggle Board](algoexpert/hard/BoggleBoard/README.md)
--   [Shift Linked List](algoexpert/hard/ShiftLinkedList/README.md)
+- [Maximize Expression](algoexpert/hard/MaximizeExpression/README.md)
+- [Boggle Board](algoexpert/hard/BoggleBoard/README.md)
+- [Shift Linked List](algoexpert/hard/ShiftLinkedList/README.md)
 
 ### Very Hard
 
@@ -62,7 +63,7 @@ _Problems will be added soon._
 
 ### Binary Search
 
--   [Binary Search](grokking_algorithms/binary_search/README.md)
+- [Binary Search](grokking_algorithms/binary_search/README.md)
 
 ---
 
@@ -80,13 +81,15 @@ _The problem list is currently empty. New problems will be added over time._
 
 Each problem includes:
 
--   **README.md** with a problem description.
--   One or more solution files (e.g., `solution.py`).
+- **README.md** with a problem description.
+- One or more solution files (e.g., `solution.py`).
 
 ---
 
 ## 💡 Future Enhancements
 
--   Add more problems from LeetCode and other sources.
--   Organize problems by algorithms and data structures.
--   Include brief explanations of algorithms and approaches for solving problems.
+- Add more problems from LeetCode and other sources.
+- Organize problems by algorithms and data structures.
+- Include brief explanations of algorithms and approaches for solving problems.
+
+## With love from Algo Community 💚
