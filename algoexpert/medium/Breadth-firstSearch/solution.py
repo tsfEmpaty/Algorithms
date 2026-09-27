@@ -4,6 +4,8 @@
 # for the breadthFirstSearch method.
 # Feel free to add new properties
 # and methods to the class.
+
+
 class Node:
     def __init__(self, name):
         self.children = []
