@@ -1,22 +1,30 @@
-# Algorithms Repository
+# Algorithms
 
-Welcome to the **Algorithms** repository, which contains my write-ups of problems from various sources such as AlgoExpert, LeetCode, and others. Here, you'll find problems with solutions organized by source, difficulty levels, and topics.
+![Python](https://img.shields.io/badge/language-Python-3776AB?logo=python&logoColor=white)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Status](https://img.shields.io/badge/status-active-brightgreen.svg)
 
-## 📜 Navigation
+A collection of algorithmic problems and solutions from **AlgoExpert**, **Grokking Algorithms**, **LeetCode**, **NeetCode**, and **Codewars**.
 
-- [Algorithms Repository](#algorithms-repository)
-    - [📜 Navigation](#-navigation)
-    - [AlgoExpert](#algoexpert)
-        - [Easy](#easy)
-        - [Medium](#medium)
-        - [Hard](#hard)
-        - [Very Hard](#very-hard)
-    - [Grokking Algorithms](#grokking-algorithms)
-        - [Binary Search](#binary-search)
-    - [LeetCode](#leetcode)
-    - [🔧 How to Use This Repository](#-how-to-use-this-repository)
-    - [💡 Future Enhancements](#-future-enhancements)
-    - [With love from Algo Community 💚](#with-love-from-algo-community-)
+Each problem lives in its own folder and includes a `README.md` with the description, hints, and complexity analysis, plus one or more solution files.
+
+---
+
+## Table of Contents
+
+- [Algorithms](#algorithms)
+  - [Table of Contents](#table-of-contents)
+  - [AlgoExpert](#algoexpert)
+    - [Easy](#easy)
+    - [Medium](#medium)
+    - [Hard](#hard)
+  - [Grokking Algorithms](#grokking-algorithms)
+  - [LeetCode](#leetcode)
+  - [NeetCode](#neetcode)
+  - [Codewars](#codewars)
+  - [How to Use](#how-to-use)
+  - [Contributing](#contributing)
+  - [License](#license)
 
 ---
 
@@ -24,72 +32,65 @@ Welcome to the **Algorithms** repository, which contains my write-ups of problem
 
 ### Easy
 
+- [Binary Search](algoexpert/easy/BinarySearch/README.md)
+- [Branch Sums](algoexpert/easy/BranchSums/README.md)
+- [Bubble Sort](algoexpert/easy/BubbleSort/README.md)
+- [Depth-first Search](algoexpert/easy/Depth-firstSearch/README.md)
+- [Find Closest Value In BST](algoexpert/easy/FindClosestValueInBST/README.md)
+- [First Non-Repeating Character](algoexpert/easy/FirstNon-RepeatingCharacter/README.md)
+- [Generate Document](algoexpert/easy/GenerateDocument/README.md)
+- [Node Depths](algoexpert/easy/NodeDepths/README.md)
+- [Non-Constructible Change](algoexpert/easy/NonConstructibleChange/README.md)
+- [Nth Fibonacci](algoexpert/easy/NthFibonacci/README.md)
+- [Palindrome Check](algoexpert/easy/PalindromeCheck/README.md)
+- [Product Sum](algoexpert/easy/ProductSum/README.md)
+- [Remove Duplicates From Linked List](algoexpert/easy/RemoveDuplicatesFromLinkedList/README.md)
 - [Two Number Sum](algoexpert/easy/TwoNumberSum/README.md)
 - [Validate Subsequence](algoexpert/easy/ValidateSubsequence/README.md)
-- [Non-Constructible Change](algoexpert/easy/NonConstructibleChange/README.md)
-- [Find Closest Value in BST](algoexpert/easy/FindClosestValueInBST/README.md)
-- [Branch Sums](algoexpert/easy/BranchSums/README.md)
-- [Node Depths](algoexpert/easy/NodeDepths/README.md)
-- [Depth-first Search](algoexpert/easy/Depth-firstSearch/README.md)
-- [Remove Duplicates From Linked List](algoexpert/easy/RemoveDuplicatesFromLinkedList/README.md)
-- [Nth Fibonacci](algoexpert/easy/NthFibonacci/README.md)
-- [Product Sum](algoexpert/easy/ProductSum/README.md)
-- [Binary Search](algoexpert/easy/BinarySearch/README.md)
-- [Bubble Sort](algoexpert/easy/BubbleSort/README.md)
-- [Palindrome Check](algoexpert/easy/PalindromeCheck/README.md)
-- [Generate Document](algoexpert/easy/GenerateDocument/README.md)
-- [First Non-Repeating Character](algoexpert/easy/FirstNon-RepeatingCharacter/README.md)
 
 ### Medium
 
-- [Longest Peak](algoexpert/medium/LongestPeak/README.md)
-- [Validate BST](algoexpert/medium/ValidateBST/README.md)
 - [Breadth-first Search](algoexpert/medium/Breadth-firstSearch/README.md)
+- [Longest Peak](algoexpert/medium/LongestPeak/README.md)
 - [River Sizes](algoexpert/medium/RiverSizes/README.md)
+- [Validate BST](algoexpert/medium/ValidateBST/README.md)
 
 ### Hard
 
-- [Maximize Expression](algoexpert/hard/MaximizeExpression/README.md)
 - [Boggle Board](algoexpert/hard/BoggleBoard/README.md)
+- [Maximize Expression](algoexpert/hard/MaximizeExpression/README.md)
 - [Shift Linked List](algoexpert/hard/ShiftLinkedList/README.md)
-
-### Very Hard
-
-_Problems will be added soon._
-
----
 
 ## Grokking Algorithms
 
-### Binary Search
-
-- [Binary Search](grokking_algorithms/binary_search/README.md)
-
----
+_Problems will be added soon._
 
 ## LeetCode
 
-_The problem list is currently empty. New problems will be added over time._
+_Problems will be added soon._
 
----
+## NeetCode
 
-## 🔧 How to Use This Repository
+_Problems will be added soon._
 
-1. Choose the source you are interested in from the [Navigation](#navigation) section.
-2. Navigate to the desired difficulty level or topic.
-3. Open the link to the problem to view its description and solutions.
+## Codewars
 
-Each problem includes:
+_Problems will be added soon._
 
-- **README.md** with a problem description.
-- One or more solution files (e.g., `solution.py`).
+## How to Use
 
----
+1. Pick a source from the table of contents above.
+2. Open the problem folder and read `README.md` for the description.
+3. Run the solution locally:
 
-## 💡 Future Enhancements
+```bash
+python path/to/solution.py
+```
 
-- Add more problems from LeetCode and other sources.
-- Organize problems by algorithms and data structures.
-- Include brief explanations of algorithms and approaches for solving problems.
+## Contributing
 
-## With love from Algo Community 💚
+This is a personal learning repository, but suggestions and improvements are welcome. Feel free to open an issue or pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).

@@ -20,7 +20,7 @@ n = 2
 ## Sample Output #1
 
 ```python
-20
+1
 ```
 
 ## Sample Input #2
@@ -31,8 +31,8 @@ n = 6
 
 ## Sample Output #2
 
-```javascript
-5 // 0, 1, 1, 2, 3, 5
+```python
+5 # 0, 1, 1, 2, 3, 5
 ```
 
 <details>

@@ -1,4 +1,4 @@
-# Branch Sums
+# Depth-first Search
 
 You're given a <code>Node</code> class that has a <code>name</code> and an
 array of optional <code>children</code> nodes. When put together, nodes form
