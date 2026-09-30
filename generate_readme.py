@@ -101,38 +101,47 @@ def _render_source(source_name: str, source_path: Path) -> list[str]:
     return lines
 
 
+def _count_solutions() -> int:
+    """Return the total number of Python solution files in the repo."""
+    return len(list(REPO_ROOT.rglob("*.py")))
+
+
 def _build_readme() -> str:
     """Assemble the full README content."""
+    solution_count = _count_solutions()
     lines = [
+        "<div align=\"center\">\n\n",
         "# Algorithms\n",
         "",
         "![Python](https://img.shields.io/badge/language-Python-3776AB?logo=python&logoColor=white)",
         "![License](https://img.shields.io/badge/license-MIT-green.svg)",
-        "![Status](https://img.shields.io/badge/status-active-brightgreen.svg)\n",
+        "![Status](https://img.shields.io/badge/status-active-brightgreen.svg)",
+        f"![Solutions](https://img.shields.io/badge/solutions-{solution_count}-blue.svg)\n",
         "",
-        "A collection of algorithmic problems and solutions from **AlgoExpert**, **Grokking Algorithms**, **LeetCode**, **NeetCode**, and **Codewars**.\n",
+        "**A curated collection of algorithmic challenges and solutions.**\n",
         "",
-        "Each problem lives in its own folder and includes a `README.md` with the description, hints, and complexity analysis, plus one or more solution files.\n",
+        "Practice material from **AlgoExpert**, **Grokking Algorithms**, **LeetCode**, **NeetCode**, and **Codewars** — all in one place, with clean explanations and complexity analysis.\n",
+        "",
+        "[Explore](#problem-index) · [How to Use](#how-to-use) · [Contribute](#contributing)\n",
+        "",
+        "</div>\n",
         "",
         "---\n",
         "",
-        "## Table of Contents\n",
+        "## Why This Repo\n",
+        "",
+        "- Clean, self-contained problem folders.",
+        "- Every solution includes time/space complexity notes.",
+        "- Multiple approaches when they matter.",
+        "- Beginner-friendly hints and explanations.\n",
+        "",
+        "> **Goal:** Build strong algorithmic intuition by studying classic patterns, not memorizing answers.\n",
+        "",
+        "---\n",
+        "",
+        "## Problem Index\n",
         "",
     ]
-
-    for source_name in SOURCES:
-        anchor = source_name.lower().replace(" ", "-")
-        lines.append(f"- [{source_name}](#{anchor})")
-    lines.extend(
-        [
-            "- [How to Use](#how-to-use)",
-            "- [Contributing](#contributing)",
-            "- [License](#license)\n",
-            "",
-            "---\n",
-            "",
-        ]
-    )
 
     for source_name, source_path in SOURCES.items():
         lines.extend(_render_source(source_name, source_path))
@@ -142,23 +151,35 @@ def _build_readme() -> str:
 
     lines.extend(
         [
+            "---\n",
+            "",
             "## How to Use\n",
             "",
-            "1. Pick a source from the table of contents above.",
-            "2. Open the problem folder and read `README.md` for the description.",
-            "3. Run the solution locally:\n",
+            "1. Browse the [Problem Index](#problem-index) above.",
+            "2. Open any folder and read `README.md` for the description, hints, and complexity.",
+            "3. Run the solution:\n",
             "",
             "```bash",
             "python path/to/solution.py",
             "```\n",
             "",
+            "Want to regenerate the index after adding problems?\n",
+            "",
+            "```bash",
+            "python generate_readme.py",
+            "```\n",
+            "",
+            "---\n",
+            "",
             "## Contributing\n",
             "",
-            "This is a personal learning repository, but suggestions and improvements are welcome. Feel free to open an issue or pull request.\n",
+            "Found a bug or a cleaner solution? Open an issue or pull request. All feedback welcome.\n",
+            "",
+            "---\n",
             "",
             "## License\n",
             "",
-            "This project is licensed under the [MIT License](LICENSE).\n",
+        "Licensed under the [MIT License](LICENSE).\n",
         ]
     )
 

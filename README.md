@@ -1,32 +1,47 @@
+<div align="center">
+
+
 # Algorithms
+
 
 ![Python](https://img.shields.io/badge/language-Python-3776AB?logo=python&logoColor=white)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Status](https://img.shields.io/badge/status-active-brightgreen.svg)
+![Solutions](https://img.shields.io/badge/solutions-28-blue.svg)
 
-A collection of algorithmic problems and solutions from **AlgoExpert**, **Grokking Algorithms**, **LeetCode**, **NeetCode**, and **Codewars**.
 
-Each problem lives in its own folder and includes a `README.md` with the description, hints, and complexity analysis, plus one or more solution files.
+**A curated collection of algorithmic challenges and solutions.**
+
+
+Practice material from **AlgoExpert**, **Grokking Algorithms**, **LeetCode**, **NeetCode**, and **Codewars** — all in one place, with clean explanations and complexity analysis.
+
+
+[Explore](#problem-index) · [How to Use](#how-to-use) · [Contribute](#contributing)
+
+
+</div>
+
+
+---
+
+
+## Why This Repo
+
+
+- Clean, self-contained problem folders.
+- Every solution includes time/space complexity notes.
+- Multiple approaches when they matter.
+- Beginner-friendly hints and explanations.
+
+
+> **Goal:** Build strong algorithmic intuition by studying classic patterns, not memorizing answers.
+
 
 ---
 
-## Table of Contents
 
-- [Algorithms](#algorithms)
-  - [Table of Contents](#table-of-contents)
-  - [AlgoExpert](#algoexpert)
-    - [Easy](#easy)
-    - [Medium](#medium)
-    - [Hard](#hard)
-  - [Grokking Algorithms](#grokking-algorithms)
-  - [LeetCode](#leetcode)
-  - [NeetCode](#neetcode)
-  - [Codewars](#codewars)
-  - [How to Use](#how-to-use)
-  - [Contributing](#contributing)
-  - [License](#license)
+## Problem Index
 
----
 
 ## AlgoExpert
 
@@ -65,32 +80,59 @@ Each problem lives in its own folder and includes a `README.md` with the descrip
 
 _Problems will be added soon._
 
+
 ## LeetCode
 
 _Problems will be added soon._
+
 
 ## NeetCode
 
 _Problems will be added soon._
 
+
 ## Codewars
 
 _Problems will be added soon._
 
+
+---
+
+
 ## How to Use
 
-1. Pick a source from the table of contents above.
-2. Open the problem folder and read `README.md` for the description.
-3. Run the solution locally:
+
+1. Browse the [Problem Index](#problem-index) above.
+2. Open any folder and read `README.md` for the description, hints, and complexity.
+3. Run the solution:
+
 
 ```bash
 python path/to/solution.py
 ```
 
+
+Want to regenerate the index after adding problems?
+
+
+```bash
+python generate_readme.py
+```
+
+
+---
+
+
 ## Contributing
 
-This is a personal learning repository, but suggestions and improvements are welcome. Feel free to open an issue or pull request.
+
+Found a bug or a cleaner solution? Open an issue or pull request. All feedback welcome.
+
+
+---
+
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+
+Licensed under the [MIT License](LICENSE).
